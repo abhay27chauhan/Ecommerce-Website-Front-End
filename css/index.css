@@ -1,0 +1,77 @@
+body{
+    width: 100%; 
+    height: 100%; 
+    margin: 0;
+    }
+a{
+    text-decoration: none; 
+    background-color: transparent; 
+    color:#ededed;
+ }
+ .content{
+    min-height: 600px;
+ }
+ .banner-image{
+   padding-top: 75px; 
+   padding-bottom: 50px;
+   margin-bottom: 20px;
+   text-align: center;
+   color: #f8f8f8;
+   background: url(img/intro-bg_1.jpg) no-repeat center; 
+   background-size: cover;
+ }
+.banner_content{
+   position: relative;
+   padding-top: 6%;
+   padding-bottom: 6%; 
+   overflow: hidden;
+   margin-top: 12%;
+   margin-bottom: 12%; 
+   background-color: 
+   rgba(0, 0, 0, 0.7); 
+   max-width: 660px;
+   font-family: roboto;
+}
+.caption{
+   color:#000; 
+   padding:0px 10px 10px; 
+   font-weight: bold; 
+   text-align: center;
+}
+
+.signup{
+   margin-top: 50px;
+   margin-bottom: 190px;
+}
+.settings{
+   margin-top: 70px;
+   margin-bottom: 345px;
+}
+
+#login-panel .panel-footer{
+   font-weight:normal;
+}
+
+#cameras:before, #watches:before, #shirts:before{
+   display: block; 
+   content: " "; 
+   margin-top: -85px; 
+   height: 85px; 
+   visibility: hidden;
+}
+
+footer{
+   padding: 10px 0;
+   background-color: #101010; 
+   columns: #9d9d9d;;
+   bottom: 0; 
+   font-size:14px;
+   width: 100%;
+}
+.content{
+   margin-top: 80px;
+}
+
+.password{
+   font-size: 25px;
+}
